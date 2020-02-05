@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="w2ui-1.4.min.css" />
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="w2ui.com/src/w2ui-1.4.min.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="myLayout" style="height: 400px"></div>
+</body>
+<script type="text/javascript">
+$(function () {
+    $('#myLayout').w2layout({
+        name: 'myLayout',
+        panels: [
+            { type: 'top', size: 60 },
+            { type: 'left', size: 150, resizable: true },
+            { type: 'right', size: 150, resizable: true }
+        ]
+    });
+});
+</script>
+</html>
