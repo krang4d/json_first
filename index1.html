@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="js_headers/w2ui-1.4.min.css" />
+    <script src="js_headers/jquery.min.js"></script>
+    <script type="js_headers/w2ui.com/src/w2ui-1.4.min.js"></script>
+</head>
+<body>
+    <div id="myForm" style="width: 600px"></div>
+    <div class="w2ui-field w2ui-span3">
+       <label>Files:</label>
+       <div><input id="file" style="width: 600px"></div>
+    </div>
+</body>
+<script type="text/javascript">
+
+$(function () {
+    $('#file').w2field('file', {});
+    // if you need to get to the selected items, use:
+    // $('#id').data('selected');
+});
+</script>
+</html>
