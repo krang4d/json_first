@@ -2,16 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.5.rc1.min.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://w2ui.com/src/w2ui-1.5.rc1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/w2ui-1.5.rc1.min.css" />
+    <script src="libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/w2ui-1.5.rc1.min.js"></script>
 </head>
 <body>
     <div id="grid" style="width: 100%; height: 250px;"></div>
 </body>
 <script>
-$(function () {
-    $('#grid').w2grid({
+jQuery(function () {
+    jQuery('#grid').w2grid({
         name: 'grid',
         header: 'List of Names',
         columns: [
